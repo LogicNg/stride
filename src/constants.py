@@ -1,14 +1,14 @@
-distance_value = "marathon"
-number_of_weeks_to_train = 16
+RACE_DISTANCE = "marathon"
+WEEKS_TO_TRAIN = 16
 
-speed_run_sessions = [
+SPEED_RUN_SESSIONS = [
     "100m Intervals",
     "400m Intervals",
     "800m Intervals",
     "Hill Repeats",
 ]
 
-medium_run_sessions = [
+MEDIUM_RUN_SESSIONS = [
     "Fartlek",
     "Tempo",
     "Progression",
@@ -16,7 +16,7 @@ medium_run_sessions = [
     "Threshold",
 ]
 
-long_run_sessions = [
+LONG_RUN_SESSIONS = [
     "Long Run",
     "Long Run",
     "Long Run",

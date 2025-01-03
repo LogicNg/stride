@@ -26,21 +26,18 @@ def training_dates():
     training_dates = []
 
     while start_date <= end_date:
-        training_dates.append(start_date.strftime("%m/%d/%Y"))
+        training_dates.append(start_date.strftime("%d/%m/%Y"))
         start_date += timedelta(days=TRAIN_EVERY_X_DAYS)
 
     return training_dates
 
 
 dates = training_dates()
-print(f"{len(dates)} days to train\n")
-
 days = len(dates)
 
 plans = list(islice(cycle(["medium", "speed", "easy", "long"]), days))
 
 for i in range(days):
-
     plan = plans[i]
     training = ""
 

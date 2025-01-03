@@ -1,5 +1,4 @@
-RACE_DISTANCE = "marathon"
-WEEKS_TO_TRAIN = 16
+RACE_DISTANCE = "half-marathon"
 
 SPEED_RUN_SESSIONS = [
     "100m Intervals",

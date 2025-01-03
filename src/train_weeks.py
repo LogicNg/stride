@@ -1,10 +1,4 @@
-from src.constants import (
-    LONG_RUN_SESSIONS,
-    MEDIUM_RUN_SESSIONS,
-    RACE_DISTANCE,
-    SPEED_RUN_SESSIONS,
-    WEEKS_TO_TRAIN,
-)
+from src.constants import LONG_RUN_SESSIONS, MEDIUM_RUN_SESSIONS, SPEED_RUN_SESSIONS
 from src.distances import (
     max_easy_run_distance,
     max_long_run_distance,
@@ -15,13 +9,10 @@ from src.distances import (
     min_medium_run_distance,
     min_speed_run_distance,
 )
-from src.last_week import print_last_week
-from src.taper_weeks import print_taper_weeks
 from src.utils import num_between, random_item
 
 
 def print_train_weeks(weeks_to_train):
-
     for i in range(1, weeks_to_train + 1):
         print(f"Week {i}:")
         print("Day 1: Rest or Crosstrain")
